@@ -2,15 +2,21 @@
     "$schema": "https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/schema/library.json",
     "name": "NMEA2000_can2040",
     "version": "0.7.2",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/speters/NMEA2000_can2040.git"
+    },
     "authors": [
         {
             "name": "Soenke J. Peters",
             "maintainer": true,
-            "url": "https://opcenter.de"
+            "url": "https://github.com/speters/NMEA2000_can2040/"
         }
     ],
     "description": "Inherited NMEA2000 object for Raspberry Pi Pico using can2040. See also NMEA2000 library.",
     "keywords": "NMEA2000, rp2040, CAN, canbus",
+    "license": "MIT",
+    "homepage": "https://github.com/speters/NMEA2000_can2040/",
     "frameworks": "*",
     "platforms": "raspberrypi"
 }
