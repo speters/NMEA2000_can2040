@@ -1,8 +1,8 @@
-# NMEA2000_can2040 library for Raspberry Pi Pico
+# __NMEA2000_can2040__ library for Raspberry Pi Pico / RP2040
 
-`NMEA2000_can2040` is a driver supplement to [NMEA2000 library by Timo Lappalainen](https://github.com/ttlappalainen/NMEA2000).
+__NMEA2000_can2040__ is a driver supplement to [__NMEA2000 library__ by Timo Lappalainen](https://github.com/ttlappalainen/NMEA2000).
 
-It is based on the [CAN2040 implementation by Kevin O'Connor](https://github.com/KevinOConnor/can2040/) which makes use of the Raspberry Pi Pico's PIO.
+It is based on the [__CAN2040__ implementation by Kevin O'Connor](https://github.com/KevinOConnor/can2040/) which makes use of the Raspberry Pi Pico's PIO.
 
 Besides the Raspberry Pi Pico, only a CAN transceiver with 3.3V IO like the [SN65HVD230 (marking code VP230)](https://www.ti.com/lit/ds/symlink/sn65hvd230.pdf) is necessary.
 
@@ -37,8 +37,10 @@ You should use a CAN transceiver with 3.3V I/O, as the Pico RP2040 is a 3.3V dev
 Connection example following the default setup:
 ![CAN transceiver connection to Raspberry Pi Pico](doc/can-transceiver-connection.jpg)
 
+Make sure your bus termination is correct.
+
 ## Licenses
 
 CAN2040 is released under [GPLv3](doc/COPYING.can2040).
 
-`NMEA2000_can2040` is released under [MIT License](COPYING).
+__NMEA2000_can2040__ is released under [MIT License](COPYING) (now get that sorted...).
