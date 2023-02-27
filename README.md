@@ -8,7 +8,7 @@ Besides the Raspberry Pi Pico, only a CAN transceiver with 3.3V IO like the [SN6
 
 ## Usage
 
-```lang=C++
+```C++
 // include NMEA2000_can2040.h header instead of NMEA2000_CAN.h
 #include <NMEA2000_can2040.h>
 #include <N2kMsg.h>
@@ -20,7 +20,7 @@ tNMEA2000_can2040 NMEA2000;
 
 You can set PIO, TX-Pin & RX-Pin as follows:
 
-```lang=C++
+```C++
   /// @brief NMEA2000 constructor
   /// @param _Pio PIO to use, either 0 or 1
   /// @param _TxPin TX pin, default defined CAN2040_TX_PIN 3
