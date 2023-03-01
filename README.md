@@ -1,3 +1,7 @@
+alpha status
+
+sending does still not work
+
 # __NMEA2000_can2040__ library for Raspberry Pi Pico / RP2040
 
 __NMEA2000_can2040__ is a driver supplement to [__NMEA2000 library__ by Timo Lappalainen](https://github.com/ttlappalainen/NMEA2000).
